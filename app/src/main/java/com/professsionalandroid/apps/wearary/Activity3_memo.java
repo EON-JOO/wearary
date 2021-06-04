@@ -2,17 +2,19 @@ package com.professsionalandroid.apps.wearary;
 
 import java.io.Serializable;
 
-public class activity3_memo implements Serializable {
+public class Activity3_memo implements Serializable {
     String maintext; //메모
     String subtext; //날짜
 
 
 
-    public activity3_memo(String maintext, String subtext, int isDone) {
+    public Activity3_memo(String maintext, String subtext) {
         this.maintext = maintext;
         this.subtext = subtext;
 
     }
+
+
 
     public String getMaintext() {
         return maintext;
