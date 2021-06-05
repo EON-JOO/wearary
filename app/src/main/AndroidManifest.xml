@@ -13,7 +13,23 @@
         <activity android:name=".activity4" />
         <activity android:name=".activity3" />
         <activity android:name=".activity2" />
-        <activity android:name=".activity1" />
+
+        <activity android:name=".Activity1"/>
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/pref_general" />
+        <activity
+            android:name=".Activity1_settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.professsionalandroid.apps.wearary.MainActivity"/>
+        </activity>
+        <activity android:name=".Activity1_detail" />
+        <activity android:name=".Activity1_list_view_item" />
+        <activity android:name=".Activity1_ForecastFragment" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
