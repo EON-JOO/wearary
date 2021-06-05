@@ -35,6 +35,7 @@
             android:layout_margin="30dp"
             android:layout_width="150dp"
             android:layout_height="100dp"
+            android:onClick="btn1"
             android:text="Button1"
             android:background="@drawable/cloudy"/>
 
@@ -43,6 +44,7 @@
             android:layout_margin="30dp"
             android:layout_width="150dp"
             android:layout_height="100dp"
+            android:onClick="btn2"
             android:text="Button2"
             android:background="@drawable/photobook"/>
     </LinearLayout>
@@ -56,6 +58,7 @@
             android:layout_margin="30dp"
             android:layout_width="150dp"
             android:layout_height="100dp"
+            android:onClick="btn3"
             android:text="Button3"
             android:background="@drawable/pencil"/>
 
@@ -64,6 +67,7 @@
             android:layout_margin="30dp"
             android:layout_width="150dp"
             android:layout_height="100dp"
+            android:onClick="btn4"
             android:text="Button4"
             android:background="@drawable/calendar"/>
     </LinearLayout>
