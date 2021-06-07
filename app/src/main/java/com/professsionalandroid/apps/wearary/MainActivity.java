@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent001);
     }
     public void btn2(View v){
-        Intent intent002 = new Intent(this, Activity2.class);
+        Intent intent002 = new Intent(this, activity2.class);
         startActivity(intent002);
     }
     public void btn3(View v){

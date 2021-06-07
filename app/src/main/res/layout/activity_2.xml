@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="누르면 이동되는 버튼2번"
+        android:textSize="70dp"/>
 
-
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/imageView1"
-            android:src="@drawable/background"/>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center">
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="90dp"
-                android:text="오늘의 코디는 어땠나요?"
-                android:textColor="#000000"
-                android:textSize='20sp'
-                android:gravity="center"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="bottom"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_hot"
-                    android:layout_width="432dp"
-                    android:layout_height="100dp"
-                    android:background="#00BFFF"
-                    android:drawableRight="@drawable/hotbtn" />
-
-                <Button
-                    android:id="@+id/btn_cold"
-                    android:layout_width="432dp"
-                    android:layout_height="100dp"
-                    android:background="#00BFFF"
-                    android:drawableRight="@drawable/coldbtn" />
-
-                <Button
-                    android:id="@+id/btn_soso"
-                    android:layout_width="434dp"
-                    android:layout_height="100dp"
-                    android:background="#FFD700"
-
-                    android:drawableRight="@drawable/sosobtn" />
-
-                <Button
-                    android:id="@+id/btn_good"
-                    android:layout_width="434dp"
-                    android:layout_height="100dp"
-                    android:background="#32CD32"
-                    android:drawableRight="@drawable/goodbtn" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </FrameLayout>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
